@@ -1,6 +1,7 @@
 set nocompatible
+set noswapfile
 syntax on
-colorscheme ron
+colorscheme molokai
 
 " 表示関連
 set title
@@ -8,6 +9,8 @@ set number
 set showmode
 set showcmd
 set showmatch
+set ruler
+set cursorline
 
 " 空白
 set expandtab
@@ -23,5 +26,13 @@ set incsearch
 set ignorecase
 set smartcase
 
-" Mojolicious対応
-autocmd BufNewFile,BufRead *.ep set filetype=html
+" 入力補完
+imap { {}<LEFT>
+imap [ []<LEFT>
+imap ( ()<LEFT>
+set wildmenu wildmode=list:full
+
+" for Perl
+autocmd BufNewFile,BufRead *.psgi   set filetype=perl
+autocmd BufNewFile,BufRead *.t      set filetype=perl
+autocmd BufNewFile,BufRead *.ep     set filetype=html
