@@ -54,6 +54,7 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'vim-scripts/AnsiEsc.vim'
+NeoBundle 'kchmck/vim-coffee-script'
 
 " color scheme
 NeoBundle 'tomasr/molokai'
