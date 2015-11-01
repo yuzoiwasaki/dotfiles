@@ -2,6 +2,12 @@
 
 ## 環境構築手順
 
+.vimrcの上書き
+```sh
+git clone https://github.com/yuzoiwasaki/dotfiles
+cp dotfiles/.vimrc ~/.vimrc
+```
+
 NeoBundleの導入
 ```sh
 mkdir -p ~.vim/bundle
