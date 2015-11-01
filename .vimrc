@@ -55,9 +55,6 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'plasticboy/vim-markdown'
-NeoBundle 'kannokanno/previm'
-NeoBundle 'tyru/open-browser.vim'
 NeoBundle 'thinca/vim-ref'
 NeoBundle 'yuku-t/vim-ref-ri'
 
@@ -79,6 +76,12 @@ noremap <C-L> <C-W>l
 NeoBundle 'scrooloose/syntastic'
 let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': ['ruby'] }
 let g:syntastic_ruby_checkers = ['rubocop']
+
+" markdown
+NeoBundle 'plasticboy/vim-markdown'
+NeoBundle 'kannokanno/previm'
+NeoBundle 'tyru/open-browser.vim'
+let g:vim_markdown_folding_disabled=1
 
 call neobundle#end()
 
