@@ -2,6 +2,7 @@
 
 ## 環境構築手順
 
+### vim
 .vimrcの上書き
 ```sh
 git clone https://github.com/yuzoiwasaki/dotfiles
@@ -26,4 +27,4 @@ gem install rubocop refe2
 bitclust setup
 ```
 
-vimを開いて「Install bundles now?」に(y)を入力
+vimを開いて「Install bundles now?」にyを入力
