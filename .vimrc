@@ -1,4 +1,5 @@
 syntax on
+colorscheme ron
 set encoding=utf8
 set noswapfile
 set nobackup
@@ -25,15 +26,12 @@ set ignorecase
 set smartcase
 
 " filetype
-autocmd BufNewFile,BufRead *.cgi     set filetype=perl
 autocmd BufNewFile,BufRead *.psgi    set filetype=perl
 autocmd BufNewFile,BufRead *.t       set filetype=perl
 autocmd BufNewFile,BufRead *.ep      set filetype=html
-autocmd BufNewFile,BufRead *.tx      set filetype=html
 autocmd BufNewFile,BufRead *.md      set filetype=markdown
 autocmd BufNewFile,BufRead *.coffee  set filetype=coffee
 autocmd BufNewFile,BufRead Gemfile   set filetype=ruby
-autocmd BufNewFile,BufRead Berksfile set filetype=ruby
 
 " -----------------------------------------------------------
 "  neobundle
@@ -53,16 +51,7 @@ NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tomtom/tcomment_vim'
-NeoBundle 'vim-scripts/AnsiEsc.vim'
 NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'thinca/vim-ref'
-NeoBundle 'yuku-t/vim-ref-ri'
-
-" color scheme
-NeoBundle 'tomasr/molokai'
-colorscheme molokai
-set t_Co=256
-set background=dark
 
 " NERDTree
 NeoBundle 'scrooloose/nerdtree'
@@ -71,11 +60,6 @@ noremap <C-H> <C-W>h
 noremap <C-J> <C-W>j
 noremap <C-K> <C-W>k
 noremap <C-L> <C-W>l
-
-" syntastic
-NeoBundle 'scrooloose/syntastic'
-let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': ['ruby'] }
-let g:syntastic_ruby_checkers = ['rubocop']
 
 " markdown
 NeoBundle 'plasticboy/vim-markdown'
