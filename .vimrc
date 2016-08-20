@@ -58,6 +58,7 @@ NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'szw/vim-tags'
 
 " NERDTree
 NeoBundle 'scrooloose/nerdtree'
