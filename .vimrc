@@ -33,6 +33,12 @@ autocmd BufNewFile,BufRead *.md      set filetype=markdown
 autocmd BufNewFile,BufRead *.coffee  set filetype=coffee
 autocmd BufNewFile,BufRead Gemfile   set filetype=ruby
 
+" for PHP
+let g:php_baselib       = 1
+let g:php_htmlInStrings = 1
+let g:php_noShortTags   = 1
+let g:php_sql_query     = 1
+
 " -----------------------------------------------------------
 "  neobundle
 " -----------------------------------------------------------
