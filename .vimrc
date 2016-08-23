@@ -1,5 +1,4 @@
 syntax on
-colorscheme ron
 set encoding=utf8
 set noswapfile
 set nobackup
@@ -67,12 +66,19 @@ noremap <C-H> <C-W>h
 noremap <C-J> <C-W>j
 noremap <C-K> <C-W>k
 noremap <C-L> <C-W>l
+let g:NERDTreeDirArrows=0
 
 " markdown
 NeoBundle 'plasticboy/vim-markdown'
 NeoBundle 'kannokanno/previm'
 NeoBundle 'tyru/open-browser.vim'
 let g:vim_markdown_folding_disabled=1
+
+" color scheme
+NeoBundle 'tomasr/molokai'
+colorscheme molokai
+set t_Co=256
+set background=dark
 
 " neocomplcache for auto completing
 NeoBundle 'Shougo/neocomplcache'
