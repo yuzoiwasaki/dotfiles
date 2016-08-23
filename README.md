@@ -15,6 +15,12 @@ mkdir -p ~.vim/bundle
 git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 ```
 
+molokaiのダウンロード
+```sh
+git clone https://github.com/tomasr/molokai
+cp molokai/colors/molokai.vim ~/.vim/colors/
+```
+
 ctagsのインストール
 ```sh
 brew install ctags
