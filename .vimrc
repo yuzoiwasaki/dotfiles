@@ -59,6 +59,7 @@ NeoBundle 'tomtom/tcomment_vim'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'szw/vim-tags'
 NeoBundle 'ctrlpvim/ctrlp.vim'
+NeoBundle 'slim-template/vim-slim'
 
 " NERDTree
 NeoBundle 'scrooloose/nerdtree'
