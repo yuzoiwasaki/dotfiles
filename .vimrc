@@ -3,6 +3,7 @@ set encoding=utf8
 set noswapfile
 set nobackup
 set vb t_vb=
+set nofixeol
 
 set title
 set number
