@@ -11,13 +11,14 @@ cp dotfiles/.vimrc ~/.vimrc
 
 NeoBundleの導入
 ```sh
-mkdir -p ~.vim/bundle
+mkdir -p ~/.vim/bundle
 git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 ```
 
 molokaiのダウンロード
 ```sh
 git clone https://github.com/tomasr/molokai
+mkdir ~/.vim/colors
 cp molokai/colors/molokai.vim ~/.vim/colors/
 ```
 
