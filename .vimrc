@@ -5,6 +5,7 @@ set noswapfile
 set nobackup
 set vb t_vb=
 set nofixeol
+set backspace=indent,eol,start
 
 set title
 set number
