@@ -52,9 +52,9 @@ if has('vim_starting')
 endif
 
 call neobundle#begin(expand('~/.vim/bundle'))
-      
+ 
 NeoBundleFetch 'Shougo/neobundle.vim'
-      
+ 
 NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-endwise'
