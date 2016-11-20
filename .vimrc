@@ -63,6 +63,7 @@ NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'szw/vim-tags'
 NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'slim-template/vim-slim'
+NeoBundle 'bronson/vim-trailing-whitespace'
 
 " NERDTree
 NeoBundle 'scrooloose/nerdtree'
