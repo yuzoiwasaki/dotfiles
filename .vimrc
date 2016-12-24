@@ -1,5 +1,5 @@
 syntax on
-colorscheme ron
+colorscheme hybrid
 set encoding=utf8
 set noswapfile
 set nobackup

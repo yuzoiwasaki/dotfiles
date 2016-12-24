@@ -10,6 +10,13 @@ mkdir -p ~/.vim/bundle
 git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 ```
 
+- colorscheme
+```sh
+mkdir -p ~/.vim/colors
+git clone https://github.com/w0ng/vim-hybrid
+cp vim-hybrid/colors/hybrid.vim ~/.vim/colors
+```
+
 - ctagsのインストール
 ```sh
 brew install ctags
