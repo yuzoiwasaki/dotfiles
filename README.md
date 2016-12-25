@@ -24,7 +24,7 @@ brew install ctags
 
 - .vimrcの置き換え
 
-vimを開いて「Install bundles now?」にyを入力
+- vimを開いて「Install bundles now?」にyを入力
 
 ### .bashrc
 
