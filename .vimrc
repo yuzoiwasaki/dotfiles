@@ -34,6 +34,7 @@ autocmd BufNewFile,BufRead *.ep      set filetype=html
 autocmd BufNewFile,BufRead *.md      set filetype=markdown
 autocmd BufNewFile,BufRead *.coffee  set filetype=coffee
 autocmd BufNewFile,BufRead Gemfile   set filetype=ruby
+autocmd BufNewFile,BufRead *.twig    set filetype=html
 
 " for PHP
 let g:php_baselib       = 1
