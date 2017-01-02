@@ -18,3 +18,6 @@ alias mv='mv -i'
 
 # gitコマンド補完
 source ~/.git-completion.bash
+
+# Psysh
+export PATH=$HOME/.composer/vendor/bin:$PATH
