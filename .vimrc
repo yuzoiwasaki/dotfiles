@@ -15,10 +15,6 @@ set showmatch
 set ruler
 set cursorline
 
-set expandtab
-set tabstop=4
-set shiftwidth=4
-set softtabstop=0
 set autoindent
 set smartindent
 
