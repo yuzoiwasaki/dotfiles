@@ -17,6 +17,12 @@ git clone https://github.com/w0ng/vim-hybrid
 cp vim-hybrid/colors/hybrid.vim ~/.vim/colors
 ```
 
+- Stylus
+```sh
+cd ~/.vim/bundle
+git clone git://github.com/wavded/vim-stylus.git
+```
+
 - ctagsのインストール
 ```sh
 brew install ctags
