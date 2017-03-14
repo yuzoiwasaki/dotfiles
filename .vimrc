@@ -62,6 +62,7 @@ NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'slim-template/vim-slim'
 NeoBundle 'bronson/vim-trailing-whitespace'
 NeoBundle 'wavded/vim-stylus'
+NeoBundle 'digitaltoad/vim-pug'
 
 " NERDTree
 NeoBundle 'scrooloose/nerdtree'
