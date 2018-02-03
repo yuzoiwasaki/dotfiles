@@ -1,5 +1,5 @@
 syntax on
-colorscheme hybrid
+colorscheme apprentice
 set encoding=utf8
 set noswapfile
 set nobackup

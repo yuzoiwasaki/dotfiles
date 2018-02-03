@@ -13,8 +13,8 @@ git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
 - colorscheme
 ```sh
 mkdir -p ~/.vim/colors
-git clone https://github.com/w0ng/vim-hybrid
-cp vim-hybrid/colors/hybrid.vim ~/.vim/colors
+git clone https://github.com/romainl/Apprentice
+cp Apprentice/colors/apprentice.vim ~/.vim/colors
 ```
 
 - Stylus & Pug
