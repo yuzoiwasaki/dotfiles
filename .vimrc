@@ -1,5 +1,6 @@
 syntax on
 colorscheme apprentice
+
 set encoding=utf8
 set noswapfile
 set nobackup
@@ -15,10 +16,7 @@ set showmatch
 set ruler
 set cursorline
 
-set expandtab
-set tabstop=2
 set shiftwidth=2
-set softtabstop=2
 set autoindent
 set smartindent
 
