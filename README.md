@@ -4,10 +4,10 @@
 
 ### Vim
 
-- NeoBundleの導入
+- vim-plugの導入
 ```sh
-mkdir -p ~/.vim/bundle
-git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
 - colorscheme
@@ -31,7 +31,7 @@ brew install ctags
 
 - .vimrcの置き換え
 
-- vimを開いて「Install bundles now?」にyを入力
+- vimを開いて `:PlugInstall` を実行
 
 ### .bashrc
 

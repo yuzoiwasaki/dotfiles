@@ -45,33 +45,27 @@ let php_folding         = 1
 au Syntax php set fdm=syntax
 
 " -----------------------------------------------------------
-"  neobundle
+"  vim-plug
 " -----------------------------------------------------------
-set nocompatible
-filetype off
+call plug#begin('~/.vim/plugged')
 
-if has('vim_starting')
-  set runtimepath+=~/.vim/bundle/neobundle.vim
-endif
-
-call neobundle#begin(expand('~/.vim/bundle'))
-
-NeoBundleFetch 'Shougo/neobundle.vim'
-
-NeoBundle 'Townk/vim-autoclose'
-NeoBundle 'tpope/vim-rails'
-NeoBundle 'tpope/vim-endwise'
-NeoBundle 'tomtom/tcomment_vim'
-NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'szw/vim-tags'
-NeoBundle 'ctrlpvim/ctrlp.vim'
-NeoBundle 'slim-template/vim-slim'
-NeoBundle 'bronson/vim-trailing-whitespace'
-NeoBundle 'wavded/vim-stylus'
-NeoBundle 'digitaltoad/vim-pug'
+Plug 'Townk/vim-autoclose'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-endwise'
+Plug 'tomtom/tcomment_vim'
+Plug 'kchmck/vim-coffee-script'
+Plug 'szw/vim-tags'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'slim-template/vim-slim'
+Plug 'bronson/vim-trailing-whitespace'
+Plug 'wavded/vim-stylus'
+Plug 'digitaltoad/vim-pug'
+Plug 'scrooloose/nerdtree'
+Plug 'plasticboy/vim-markdown'
+Plug 'kannokanno/previm'
+Plug 'tyru/open-browser.vim'
 
 " NERDTree
-NeoBundle 'scrooloose/nerdtree'
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 noremap <C-H> <C-W>h
 noremap <C-J> <C-W>j
@@ -80,13 +74,6 @@ noremap <C-L> <C-W>l
 let g:NERDTreeDirArrows=0
 
 " markdown
-NeoBundle 'plasticboy/vim-markdown'
-NeoBundle 'kannokanno/previm'
-NeoBundle 'tyru/open-browser.vim'
 let g:vim_markdown_folding_disabled=1
 
-call neobundle#end()
-
-filetype plugin indent on
-
-NeoBundleCheck
+call plug#end()
