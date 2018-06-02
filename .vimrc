@@ -70,9 +70,10 @@ noremap <C-H> <C-W>h
 noremap <C-J> <C-W>j
 noremap <C-K> <C-W>k
 noremap <C-L> <C-W>l
-let g:NERDTreeDirArrows=0
+let g:NERDTreeDirArrows = 0
+let NERDTreeShowHidden = 1
 
 " markdown
-let g:vim_markdown_folding_disabled=1
+let g:vim_markdown_folding_disabled = 1
 
 call plug#end()
