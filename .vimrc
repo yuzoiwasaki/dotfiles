@@ -15,6 +15,7 @@ set showcmd
 set showmatch
 set ruler
 set cursorline
+set laststatus=2
 
 set expandtab
 set tabstop=2
