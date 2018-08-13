@@ -65,6 +65,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'plasticboy/vim-markdown'
 Plug 'kannokanno/previm'
 Plug 'tyru/open-browser.vim'
+Plug 'hashivim/vim-terraform'
 
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
