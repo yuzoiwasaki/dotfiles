@@ -30,14 +30,15 @@ set ignorecase
 set smartcase
 
 " filetype
-autocmd BufNewFile,BufRead *.psgi    set filetype=perl
-autocmd BufNewFile,BufRead *.t       set filetype=perl
-autocmd BufNewFile,BufRead *.ep      set filetype=html
-autocmd BufNewFile,BufRead *.md      set filetype=markdown
-autocmd BufNewFile,BufRead *.coffee  set filetype=coffee
-autocmd BufNewFile,BufRead Gemfile   set filetype=ruby
-autocmd BufNewFile,BufRead *.twig    set filetype=html
+autocmd BufNewFile,BufRead *.psgi            set filetype=perl
+autocmd BufNewFile,BufRead *.t               set filetype=perl
+autocmd BufNewFile,BufRead *.ep              set filetype=html
+autocmd BufNewFile,BufRead *.md              set filetype=markdown
+autocmd BufNewFile,BufRead *.coffee          set filetype=coffee
+autocmd BufNewFile,BufRead Gemfile           set filetype=ruby
+autocmd BufNewFile,BufRead *.twig            set filetype=html
 autocmd BufNewFile,BufRead *.{html,htm,vue*} set filetype=html
+autocmd BufRead,BufNewFile *.scala           set filetype=scala
 
 " for PHP
 let g:php_baselib       = 1
@@ -67,6 +68,7 @@ Plug 'kannokanno/previm'
 Plug 'tyru/open-browser.vim'
 Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'
+Plug 'derekwyatt/vim-scala'
 
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
