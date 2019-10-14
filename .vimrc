@@ -1,5 +1,5 @@
 syntax on
-colorscheme apprentice
+colorscheme alduin
 
 set encoding=utf8
 set noswapfile
