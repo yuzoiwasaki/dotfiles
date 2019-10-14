@@ -69,6 +69,7 @@ Plug 'tyru/open-browser.vim'
 Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'
 Plug 'derekwyatt/vim-scala'
+Plug 'tpope/vim-fugitive'
 
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
