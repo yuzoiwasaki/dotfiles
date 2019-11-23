@@ -1,5 +1,5 @@
 syntax on
-colorscheme alduin
+colorscheme hybrid
 
 set encoding=utf8
 set noswapfile
