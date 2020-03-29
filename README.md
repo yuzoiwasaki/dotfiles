@@ -13,20 +13,8 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 - colorscheme
 ```sh
 mkdir -p ~/.vim/colors
-git clone https://github.com/romainl/Apprentice
-cp Apprentice/colors/apprentice.vim ~/.vim/colors
-```
-
-- Stylus & Pug
-```sh
-cd ~/.vim/bundle
-git clone git://github.com/wavded/vim-stylus.git
-git clone git://github.com/digitaltoad/vim-pug.git
-```
-
-- ctagsのインストール
-```sh
-brew install ctags
+git clone https://github.com/w0ng/vim-hybrid
+cp vim-hybrid/colors/hybrid.vim ~/.vim/colors
 ```
 
 - .vimrcの置き換え
