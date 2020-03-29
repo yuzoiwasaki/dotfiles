@@ -49,23 +49,28 @@ let g:php_sql_query     = 1
 call plug#begin('~/.vim/plugged')
 
 Plug 'Townk/vim-autoclose'
-Plug 'tpope/vim-rails'
-Plug 'tpope/vim-endwise'
-Plug 'tomtom/tcomment_vim'
-Plug 'kchmck/vim-coffee-script'
-Plug 'ctrlpvim/ctrlp.vim'
-Plug 'slim-template/vim-slim'
-Plug 'bronson/vim-trailing-whitespace'
 Plug 'scrooloose/nerdtree'
-Plug 'plasticboy/vim-markdown'
-Plug 'kannokanno/previm'
-Plug 'tyru/open-browser.vim'
-Plug 'hashivim/vim-terraform'
-Plug 'leafgarland/typescript-vim'
-Plug 'derekwyatt/vim-scala'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'tomtom/tcomment_vim'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'bronson/vim-trailing-whitespace'
+
+Plug 'plasticboy/vim-markdown'
+Plug 'kannokanno/previm'
+Plug 'tyru/open-browser.vim'
+
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-endwise'
+Plug 'slim-template/vim-slim'
+
+Plug 'hashivim/vim-terraform'
+Plug 'juliosueiras/vim-terraform-completion'
+
+Plug 'kchmck/vim-coffee-script'
+Plug 'leafgarland/typescript-vim'
+Plug 'derekwyatt/vim-scala'
 
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
@@ -78,5 +83,8 @@ let NERDTreeShowHidden = 1
 
 " markdown
 let g:vim_markdown_folding_disabled = 1
+
+" terraform
+let g:terraform_fmt_on_save = 1
 
 call plug#end()
