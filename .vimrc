@@ -30,9 +30,6 @@ set ignorecase
 set smartcase
 
 " filetype
-autocmd BufNewFile,BufRead *.psgi            set filetype=perl
-autocmd BufNewFile,BufRead *.t               set filetype=perl
-autocmd BufNewFile,BufRead *.ep              set filetype=html
 autocmd BufNewFile,BufRead *.md              set filetype=markdown
 autocmd BufNewFile,BufRead *.coffee          set filetype=coffee
 autocmd BufNewFile,BufRead Gemfile           set filetype=ruby
@@ -59,8 +56,6 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'slim-template/vim-slim'
 Plug 'bronson/vim-trailing-whitespace'
-Plug 'wavded/vim-stylus'
-Plug 'digitaltoad/vim-pug'
 Plug 'scrooloose/nerdtree'
 Plug 'plasticboy/vim-markdown'
 Plug 'kannokanno/previm'
