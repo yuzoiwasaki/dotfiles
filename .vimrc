@@ -64,6 +64,8 @@ Plug 'hashivim/vim-terraform'
 Plug 'leafgarland/typescript-vim'
 Plug 'derekwyatt/vim-scala'
 Plug 'tpope/vim-fugitive'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
