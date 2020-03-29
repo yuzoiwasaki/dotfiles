@@ -71,6 +71,7 @@ Plug 'juliosueiras/vim-terraform-completion'
 Plug 'kchmck/vim-coffee-script'
 Plug 'leafgarland/typescript-vim'
 Plug 'derekwyatt/vim-scala'
+Plug 'chr4/nginx.vim'
 
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
