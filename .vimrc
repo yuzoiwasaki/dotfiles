@@ -62,11 +62,11 @@ Plug 'slim-template/vim-slim'
 
 Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
+Plug 'chr4/nginx.vim'
 
 Plug 'kchmck/vim-coffee-script'
 Plug 'leafgarland/typescript-vim'
 Plug 'derekwyatt/vim-scala'
-Plug 'chr4/nginx.vim'
 Plug 'fatih/vim-go'
 
 " NERDTree
