@@ -67,6 +67,7 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'leafgarland/typescript-vim'
 Plug 'derekwyatt/vim-scala'
 Plug 'chr4/nginx.vim'
+Plug 'fatih/vim-go'
 
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
