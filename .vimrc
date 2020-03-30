@@ -30,12 +30,7 @@ set ignorecase
 set smartcase
 
 " filetype
-autocmd BufNewFile,BufRead *.md              set filetype=markdown
-autocmd BufNewFile,BufRead *.coffee          set filetype=coffee
-autocmd BufNewFile,BufRead Gemfile           set filetype=ruby
-autocmd BufNewFile,BufRead *.twig            set filetype=html
 autocmd BufNewFile,BufRead *.{html,htm,vue*} set filetype=html
-autocmd BufRead,BufNewFile *.scala           set filetype=scala
 
 " for PHP
 let g:php_baselib       = 1
