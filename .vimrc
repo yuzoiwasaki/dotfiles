@@ -63,6 +63,7 @@ Plug 'slim-template/vim-slim'
 Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'ekalinin/Dockerfile.vim'
+Plug 'yuzoiwasaki/fluentd.vim'
 
 Plug 'kchmck/vim-coffee-script'
 Plug 'leafgarland/typescript-vim'
