@@ -62,7 +62,6 @@ Plug 'slim-template/vim-slim'
 
 Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
-Plug 'chr4/nginx.vim'
 Plug 'ekalinin/Dockerfile.vim'
 
 Plug 'kchmck/vim-coffee-script'
