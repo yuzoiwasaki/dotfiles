@@ -83,6 +83,6 @@ let NERDTreeShowHidden = 1
 let g:vim_markdown_folding_disabled = 1
 
 " terraform
-let g:terraform_fmt_on_save = 1
+let g:terraform_fmt_on_save = 0
 
 call plug#end()
