@@ -51,6 +51,7 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tomtom/tcomment_vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'bronson/vim-trailing-whitespace'
+Plug 'alvan/vim-closetag'
 
 Plug 'plasticboy/vim-markdown'
 Plug 'kannokanno/previm'
@@ -84,5 +85,8 @@ let g:vim_markdown_folding_disabled = 1
 
 " terraform
 let g:terraform_fmt_on_save = 0
+
+" vim-closetag
+let g:closetag_filenames = '*.html,*.xhtml,*.phtml,*.erb,*.php,*.vue'
 
 call plug#end()
