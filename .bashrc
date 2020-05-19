@@ -19,5 +19,6 @@ alias mv='mv -i'
 # gitコマンド補完
 source ~/.git-completion.bash
 
-# Psysh
-export PATH=$HOME/.composer/vendor/bin:$PATH
+# for golang
+export GOPATH="$HOME/go"
+export PATH="$GOPATH/bin:$PATH"
