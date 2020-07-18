@@ -43,7 +43,6 @@ let g:php_sql_query     = 1
 " -----------------------------------------------------------
 call plug#begin('~/.vim/plugged')
 
-Plug 'Townk/vim-autoclose'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
@@ -51,15 +50,13 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tomtom/tcomment_vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'bronson/vim-trailing-whitespace'
+Plug 'Townk/vim-autoclose'
 Plug 'alvan/vim-closetag'
+Plug 'tpope/vim-endwise'
 
 Plug 'plasticboy/vim-markdown'
 Plug 'kannokanno/previm'
 Plug 'tyru/open-browser.vim'
-
-Plug 'tpope/vim-rails'
-Plug 'tpope/vim-endwise'
-Plug 'slim-template/vim-slim'
 
 Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
@@ -67,6 +64,7 @@ Plug 'ekalinin/Dockerfile.vim'
 Plug 'yuzoiwasaki/fluentd.vim'
 
 Plug 'kchmck/vim-coffee-script'
+Plug 'slim-template/vim-slim'
 Plug 'leafgarland/typescript-vim'
 Plug 'derekwyatt/vim-scala'
 Plug 'fatih/vim-go'
