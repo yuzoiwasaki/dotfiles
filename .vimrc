@@ -1,5 +1,5 @@
 syntax on
-colorscheme hybrid
+colorscheme lucius
 
 set encoding=utf8
 set noswapfile
