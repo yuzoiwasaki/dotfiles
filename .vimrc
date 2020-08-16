@@ -50,6 +50,8 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'tomtom/tcomment_vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'bronson/vim-trailing-whitespace'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 Plug 'Townk/vim-autoclose'
 Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-endwise'
