@@ -9,16 +9,8 @@
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
-
-- colorscheme
-```sh
-mkdir -p ~/.vim/colors
-git clone https://github.com/w0ng/vim-hybrid
-cp vim-hybrid/colors/hybrid.vim ~/.vim/colors
-```
-
-- .vimrcの置き換え
-
+- `.vimrc` の置き換え
+- `.vim/colors` を `~/.vim/colors` として配置
 - vimを開いて `:PlugInstall` を実行
 
 ### .bashrc
@@ -27,6 +19,6 @@ cp vim-hybrid/colors/hybrid.vim ~/.vim/colors
 ```sh
 brew install coreutils
 ```
-- .dircolorsを~/.dircolorsとして配置
-- [git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)をダウンロード、~/.git-completion.bashとして配置
-- .bashrcの置き換え
+- `.dircolors` を `~/.dircolors` として配置
+- [git-completion.bash](https://github.com/git/git/blob/master/contrib/completion/git-completion.bash)をダウンロード、 `~/.git-completion.bash` として配置
+- `.bashrc` の置き換え
