@@ -71,6 +71,10 @@ Plug 'leafgarland/typescript-vim'
 Plug 'derekwyatt/vim-scala'
 Plug 'fatih/vim-go'
 
+Plug 'othree/html5.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'evanleck/vim-svelte', {'branch': 'main'}
+
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
 noremap <C-H> <C-W>h
