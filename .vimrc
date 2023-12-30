@@ -30,7 +30,7 @@ set ignorecase
 set smartcase
 
 " filetype
-autocmd BufNewFile,BufRead *.{html,htm,vue*} set filetype=html
+autocmd BufNewFile,BufRead *.{html,htm,vue*,svelte} set filetype=html
 
 " for PHP
 let g:php_baselib       = 1
