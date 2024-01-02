@@ -18,7 +18,3 @@ alias mv='mv -i'
 
 # gitコマンド補完
 source ~/.git-completion.bash
-
-# for golang
-export GOPATH="$HOME/go"
-export PATH="$GOPATH/bin:$PATH"
