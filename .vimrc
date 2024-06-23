@@ -65,16 +65,15 @@ Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'yuzoiwasaki/fluentd.vim'
-
-Plug 'kchmck/vim-coffee-script'
-Plug 'slim-template/vim-slim'
-Plug 'leafgarland/typescript-vim'
 Plug 'derekwyatt/vim-scala'
 Plug 'fatih/vim-go'
 
 Plug 'othree/html5.vim'
 Plug 'pangloss/vim-javascript'
+Plug 'kchmck/vim-coffee-script'
+Plug 'leafgarland/typescript-vim'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
+Plug 'slim-template/vim-slim'
 
 " NERDTree
 nnoremap <silent><C-e> :NERDTreeToggle<CR>
