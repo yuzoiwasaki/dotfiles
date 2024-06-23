@@ -44,14 +44,15 @@ let g:php_sql_query     = 1
 call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
-Plug 'tpope/vim-fugitive'
-Plug 'airblade/vim-gitgutter'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'tomtom/tcomment_vim'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+Plug 'tpope/vim-fugitive'
+Plug 'airblade/vim-gitgutter'
 
 Plug 'Townk/vim-autoclose'
 Plug 'alvan/vim-closetag'
