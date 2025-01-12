@@ -46,9 +46,10 @@ call plug#begin('~/.vim/plugged')
 Plug 'scrooloose/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'bronson/vim-trailing-whitespace'
+
 Plug 'tomtom/tcomment_vim'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'bronson/vim-trailing-whitespace'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'tpope/vim-fugitive'
@@ -67,6 +68,7 @@ Plug 'hashivim/vim-terraform'
 Plug 'juliosueiras/vim-terraform-completion'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'yuzoiwasaki/fluentd.vim'
+
 Plug 'derekwyatt/vim-scala'
 Plug 'fatih/vim-go'
 
