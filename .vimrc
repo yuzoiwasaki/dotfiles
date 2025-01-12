@@ -57,6 +57,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Townk/vim-autoclose'
 Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-endwise'
+Plug 'kien/rainbow_parentheses.vim'
 
 Plug 'plasticboy/vim-markdown'
 Plug 'kannokanno/previm'
