@@ -12,8 +12,8 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 - `.vimrc` の置き換え
 - colorscheme
 ```sh
-git clone https://github.com/jonathanfilip/vim-lucius
-cp vim-lucius/colors/lucius.vim ~/.vim/colors
+cd .vim/colors/
+curl -LO https://raw.githubusercontent.com/cocopon/iceberg.vim/master/colors/iceberg.vim
 ````
 - vimを開いて `:PlugInstall` を実行
 

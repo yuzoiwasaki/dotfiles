@@ -1,5 +1,5 @@
 syntax on
-colorscheme lucius
+colorscheme iceberg
 
 set encoding=utf8
 set noswapfile
