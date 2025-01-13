@@ -74,7 +74,6 @@ Plug 'fatih/vim-go'
 
 Plug 'othree/html5.vim'
 Plug 'pangloss/vim-javascript'
-Plug 'kchmck/vim-coffee-script'
 Plug 'leafgarland/typescript-vim'
 Plug 'evanleck/vim-svelte', {'branch': 'main'}
 Plug 'slim-template/vim-slim'
