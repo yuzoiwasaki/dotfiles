@@ -50,7 +50,6 @@ Plug 'bronson/vim-trailing-whitespace'
 
 Plug 'tomtom/tcomment_vim'
 Plug 'ctrlpvim/ctrlp.vim'
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
